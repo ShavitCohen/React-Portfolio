@@ -1,2 +1,2 @@
-workbox.setConfig({ debug: false });
-workbox.precaching.precacheAndRoute(self.__precacheManifest || []);
+// workbox.setConfig({ debug: false });
+// workbox.precaching.precacheAndRoute(self.__precacheManifest || []);
