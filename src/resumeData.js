@@ -1,46 +1,31 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
+    "name": "Tikal",
+    "role": "We are a community of developers and technology leads dedicated to expand our clients' R&D capabilities.",
+    "linkedinId":"tikal-knowledge",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": "Working at Tikal means gaining hands-on experience in different platforms while staying close to the most innovative technologies",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/company/tikal-knowledge",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/tikalk",
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
+          "name":"twitter",
+          "url":"https://twitter.com/tikalk",
           "className":"fa fa-twitter"
-        }
+        }        
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
-    "education":[
-      {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
-      }
-    ],
+    "aboutme":"We believe in sharing knowledge with the community. For that purpose, we have established the Israeli Full Stack Developer Community, which has become one of Israel’s leading online knowledge centers for developers.  We share our knowledge and experience in many professional training and lectures and give back to the community by helping its members stay at the forefront of the most current technological knowledge. We encourage all our developers to work on multiple domains while providing them with valuable training and community events.  This way we keep it interesting and challenging.",
+    "address":"Tel Aviv",
+    "website":"https://tikalk.com",
+    "education":[      ],
     "work":[
       {
         "CompanyName":"Some Company",
