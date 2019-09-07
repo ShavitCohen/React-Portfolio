@@ -498,7 +498,18 @@ module.exports = {
       }),
     new webpack.optimize.ModuleConcatenationPlugin(),
     new InjectManifest({
-      swSrc: './src/sw.js',      
+      swSrc: 'src/sw.js', 
+      globDirectory: './public',
+      globPatterns: [
+        '**/favicon.ico',
+        '**/index.html',
+        '**/*.css',
+        '**/*.js',
+        '**/*.png',
+        '**/*.jpg',
+        '**/*.gif',
+      ],
+      swDest: 'sw.js'
     }),
   ].filter(Boolean),
   // Some libraries import Node modules but don't use them in the browser.
