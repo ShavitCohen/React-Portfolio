@@ -97,7 +97,7 @@ export default {
       },
       {
         "name":"Why I am excited about GraalVM",
-        "description":"For some time now I am very excited about this \“new\” project called GraalVM. Even now as I am writing these lines I c...",
+        "description":"For some time now I am very excited about this 'new' project called GraalVM. Even now as I am writing these lines I c...",
         "imgurl":"images/events/41.jpg"
       },
     ],
