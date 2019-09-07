@@ -1,4 +1,4 @@
-let resumeData = {
+export default {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Tikal",
     "role": "We are a community of developers and technology leads dedicated to expand our clients' R&D capabilities.",
@@ -86,6 +86,5 @@ let resumeData = {
         "name":"Some technical guy"
       }
     ]
-  }
+  };
   
-  export default resumeData

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 export default  class Resume extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    const siteData = this.props.siteData;
     return (
       <section id="resume">
 
@@ -13,7 +13,7 @@ export default  class Resume extends Component {
 
             <div className="nine columns main-col">
               {
-                resumeData.education && resumeData.education.map((item, index)=>{
+                siteData.education && siteData.education.map((item, index)=>{
                   return(
                     <div key={index + 1} className="row item" >
                        <div className="twelve columns">
@@ -38,7 +38,7 @@ export default  class Resume extends Component {
 
             <div className="nine columns main-col">
               {
-                resumeData.work && resumeData.work.map((item, index) => {
+                siteData.work && siteData.work.map((item, index) => {
                   return(
                     <div key={index + 1} className="row item">
                        <div className="twelve columns">
@@ -69,14 +69,14 @@ export default  class Resume extends Component {
             <div className="nine columns main-col">
 
                <p>
-               {resumeData.skillsDescription}
+               {siteData.skillsDescription}
                </p>
 
    				<div className="bars">
 
    				   <ul className="skills">
                 {
-                  resumeData.skills && resumeData.skills.map((item, index) => {
+                  siteData.skills && siteData.skills.map((item, index) => {
                     return(
                       <li key={index + 1}>
                       <span className={`bar-expand ${item.skillname.toLowerCase()}`}>

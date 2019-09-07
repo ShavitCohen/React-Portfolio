@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 export default class Testimonials extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    const siteData = this.props.siteData;
     return (
       <section id="testimonials">
         <div className="text-container">
@@ -13,7 +13,7 @@ export default class Testimonials extends Component {
               <div className="flexslider">
                 <ul className="slides">
                   {
-                    resumeData.testimonials && resumeData.testimonials.map((item, index)=>{
+                    siteData.testimonials && siteData.testimonials.map((item, index)=>{
                       return(
                         <li key={index + 1}>
                           <blockquote>
