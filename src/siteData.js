@@ -58,47 +58,47 @@ export default {
       {
         "name":"PWA Workshop",
         "description":"In this workshop, we will convert a regular simple web app that works with a simple API endpoint to PWA. At the end of the workshop, our new PWA will be \"Google play Store ready\"",
-        "imgurl":"images/events/36.png"
+        "imgurl":"images/events/36.jpg"
       },
       {
         "name":"Code Naturally: Recommendation Systems & Airflow",
         "description":"Code Naturally: Recommendation Systems & Airflow",
-        "imgurl":"images/events/33.png"
+        "imgurl":"images/events/33.jpg"
       },
       {
         "name":"Airflow Cancel Dataflow",
         "description":"Airflow is a great tool for job orchestration, see airflow. Dataflow, apache beam is a great tool for bigdata etl, se...",  
-        "imgurl":"images/events/31.png"
+        "imgurl":"images/events/31.jpg"
       },
       {
         "name":"Open Source love-hate relationship",
         "description":"I have been working for a long time with different open source projects. My experience has been very different depend...",
-        "imgurl":"images/events/28.png"
+        "imgurl":"images/events/28.jpg"
       },
       {
         "name":"Terraform -> the defacto tool for infrastructure provisioning",
         "description":"I’d like to share the Video & Slides with you. In this introduction session we will learn ...",
-        "imgurl":"images/events/26.png"
+        "imgurl":"images/events/26.jpg"
       },
       {
         "name":"TechRadar Airflow",
         "description":"Tikal had its first Tech Radar Full Stack day. During the day we covered the hottest topics that we felt were part of...",
-        "imgurl":"images/events/20.png"
+        "imgurl":"images/events/20.jpg"
       },
       {
         "name":"The parts of JWT security nobody talks about",
         "description":"Following our successful event, we’d like to share the Videos with you. The parts of JWT security nobody talks about...",
-        "imgurl":"images/events/16.png"
+        "imgurl":"images/events/16.jpg"
       },
       {
         "name":"How using Lombok can create bugs in your code",
         "description":"Recently my colleague Eyal Levy and I were investigating a bug, a strange one. Our code was very simple: ComponentInf...",
-        "imgurl":"images/events/4.png"
+        "imgurl":"images/events/4.jpg"
       },
       {
         "name":"Why I am excited about GraalVM",
         "description":"For some time now I am very excited about this \“new\” project called GraalVM. Even now as I am writing these lines I c...",
-        "imgurl":"images/events/41.png"
+        "imgurl":"images/events/41.jpg"
       },
     ],
     "testimonials":[
