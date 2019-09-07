@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-export default ({ removeBanner }) => {
+export default ({ setIsInstallBannerShown }) => {
     const [deferredPrompt, setDeferredPrompt] = useState(null);
 
     useEffect(() => {
@@ -29,7 +29,7 @@ export default ({ removeBanner }) => {
                 console.log('User chose to not install your PWA');
             }
             setDeferredPrompt(null);
-            removeBanner(false);
+            setIsInstallBannerShown(false);
         };
     }
 

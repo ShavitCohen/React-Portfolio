@@ -9,8 +9,7 @@ import InstallBanner from './components/InstallBanner';
 import siteData from './siteData';
 
 export default () => {
-  const [installBannerActive, setInstallBannerState] = useState(true);
-  const removeBanner = () => setInstallBannerState(false);
+  const [installBannerShown, setIsInstallBannerShown] = useState(true);
 
   return <div className="App">
     <Header siteData={siteData}/>
@@ -19,6 +18,6 @@ export default () => {
     <Testimonials siteData={siteData}/>
     <ContactUs siteData={siteData}/>
     <Footer siteData={siteData}/>
-    {installBannerActive && <InstallBanner removeBanner={removeBanner}/>}
+    {installBannerShown && <InstallBanner setIsInstallBannerShown={setIsInstallBannerShown}/>}
   </div>
 }
