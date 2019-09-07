@@ -4,7 +4,7 @@ export default ({ siteData }) => (
     <div className="row">
       <div className="twelve columns collapsed">
         <h1>Upcoming events</h1>
-        <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+        <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
         {
           siteData.portfolio && siteData.portfolio.map((item, index) => (
             <div key={index + 1} className="columns portfolio-item">
@@ -24,6 +24,9 @@ export default ({ siteData }) => (
         }
         </div>
       </div>
+    </div>
+    <div id="modal-01-wrapper">
+      <div id="modal-01">PWA Is Awsome</div>
     </div>
   </section>
 );

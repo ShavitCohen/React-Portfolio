@@ -20,15 +20,10 @@ export default ({ siteData }) => (
           </a>
         </li>
         <li>
-          <a className="smoothscroll" href="#resume">
-            Resume
-          </a>
-        </li>
-        <li>
           <a className="smoothscroll" href="#portfolio">
-            Works
+            Events
           </a>
-        </li>
+        </li>>
         <li>
           <a className="smoothscroll" href="#testimonials">
             Testimonials
