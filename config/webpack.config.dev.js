@@ -17,11 +17,11 @@ const ManifestPlugin = require('webpack-manifest-plugin');
 const ModuleNotFoundPlugin = require('react-dev-utils/ModuleNotFoundPlugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin-alt');
 const typescriptFormatter = require('react-dev-utils/typescriptFormatter');
-
+const {InjectManifest} = require('workbox-webpack-plugin');
 
 // Webpack uses `publicPath` to determine where the app is being served from.
 // In development, we always serve from the root. This makes config easier.
-const publicPath = '/';
+const publicPath = paths.servedPath;
 // `publicUrl` is just like `publicPath`, but we will provide it to our app
 // as %PUBLIC_URL% in `index.html` and `process.env.PUBLIC_URL` in JavaScript.
 // Omit trailing slash as %PUBLIC_PATH%/xyz looks better than %PUBLIC_PATH%xyz.
@@ -404,6 +404,22 @@ module.exports = {
         watch: paths.appSrc,
         silent: true,
         formatter: typescriptFormatter,
+      }),      
+      new InjectManifest({
+        swSrc: 'src/sw.js',
+        globDirectory: './',
+        globPatterns: [
+          'site.webmanifest',        
+          '**/favicon.ico',
+          '**/*.css',
+          '**/*.js',
+          '**/*.png',
+          '**/*.jpg',
+          '**/*.gif',
+          '**/*.ttf',
+          '**/*.woff',
+        ],
+        swDest: 'sw.js',
       }),
   ].filter(Boolean),
 
