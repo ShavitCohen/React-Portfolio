@@ -1,15 +1,14 @@
-[![HitCount](http://hits.dwyl.io/rbhatia46/React-Portfolio.svg)](http://hits.dwyl.io/rbhatia46/React-Portfolio)
 
-
-A simple SPA Portfolio template for developer/designers built with React. Use it to showcase your work, testimonials and other information to clients.
+# PWA Workshop
+In this workshop we will take a [simple website ](https://pwa-portfolio.surge.sh/) and create a PWA (Progressive Web App) from it.
 
 ## Preview
-![Preview](https://image.ibb.co/e5uBf0/Capture.png)
+![Preview](https://pwa-portfolio.surge.sh/images/siteScreenShot.png)
 
 ## How to use
 1. Clone/Download the repo.
 2. Run  ``` npm install ```.
-3. Change the values in ```src/siteData.js``` to suit your use-case.
-4. Run ```npm start``` to spin the up the local dev server port 3000.(http://localhost:3000).
-5. Make required changes in ```src/siteData.js``` to suit your needs.
+3. Define your desired url (surge) in ```public/CNAME``` file.
+4. Run ```npm start``` to run locally.(http://localhost:3000).
+5. Run ```npm run deploy``` to build and deploy to surge.sh.(first time run requires surge registration in the terminal).
 
