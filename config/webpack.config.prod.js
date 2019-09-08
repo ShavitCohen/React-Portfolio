@@ -501,7 +501,6 @@ module.exports = {
       swSrc: 'src/sw.js',
       globDirectory: './public',
       globPatterns: [
-        'site.webmanifest',                
         '**/*.css',
         '**/*.js',                        
       ],
