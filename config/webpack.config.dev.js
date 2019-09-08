@@ -406,20 +406,7 @@ module.exports = {
         formatter: typescriptFormatter,
       }),      
       new InjectManifest({
-        swSrc: 'src/sw.js',
-        globDirectory: './',
-        globPatterns: [
-          'site.webmanifest',        
-          '**/favicon.ico',
-          '**/*.css',
-          '**/*.js',
-          '**/*.png',
-          '**/*.jpg',
-          '**/*.gif',
-          '**/*.ttf',
-          '**/*.woff',
-        ],
-        swDest: 'sw.js',
+        swSrc: 'src/sw.js',                
       }),
   ].filter(Boolean),
 

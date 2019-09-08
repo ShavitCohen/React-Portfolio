@@ -40,7 +40,7 @@ export default ({ siteData }) => (
       <div className="banner-text">           
         <h1 className="responsive-headline">We Are {siteData.name}.</h1>
         <h3 style={{color: '#fff', fontFamily: 'sans-serif '}}>
-          We are {siteData.role}.{siteData.roleDescription}
+          {siteData.role}.{siteData.roleDescription}
         </h3>
         <hr />
         <ul className="social">

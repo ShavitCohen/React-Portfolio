@@ -1,3 +1,4 @@
+// Use your own firebase account config
 const firebaseConfig = {
   apiKey: 'AIzaSyBfLRXB-hpP4apKs9cFPL_WuqYohXDdv_4',
   authDomain: 'pwa-workshop-63f48.firebaseapp.com',
