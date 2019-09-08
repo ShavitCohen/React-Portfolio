@@ -3,7 +3,7 @@
 In this workshop we will take a [simple website ](https://pwa-portfolio.surge.sh/) and create a PWA (Progressive Web App) from it.
 
 ## Preview
-![Preview](https://pwa-portfolio.surge.sh/images/siteScreenShot.png)
+![Preview](https://pwa-portfolio.surge.sh/images/siteScreenShot.jpg)
 
 ## How to use
 1. Clone/Download the repo.
