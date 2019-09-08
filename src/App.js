@@ -5,7 +5,7 @@ import Events from './components/Events';
 import Testimonials from  './components/Testimonials';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
-import InstallBanner from './components/InstallBanner';
+// import InstallBanner from './components/InstallBanner';
 import siteData from './siteData';
 
 export default () => {
@@ -18,6 +18,6 @@ export default () => {
     <Testimonials siteData={siteData}/>
     <ContactUs siteData={siteData}/>
     <Footer siteData={siteData}/>
-    {installBannerShown && <InstallBanner setIsInstallBannerShown={setIsInstallBannerShown}/>}
+    {/* {installBannerShown && <InstallBanner setIsInstallBannerShown={setIsInstallBannerShown}/>} */}
   </div>
 }
